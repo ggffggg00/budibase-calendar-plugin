@@ -46,6 +46,7 @@
 
 	let allItems = dataProvider?.rows?.map(x => {
 		console.log(x)
+		
 		let d = new Date(x[dateKey]);
 		return {
 			title: x[titleKey],
